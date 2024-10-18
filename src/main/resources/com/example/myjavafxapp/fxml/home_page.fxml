@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<!-- Тут, вероятно, надо будет поменять минимальные значения на те, которые находятся в рекомендуемых -->
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0"
+            prefWidth="1080.0" styleClass="scene" stylesheets="@../styles/style.css"
+            xmlns="http://javafx.com/javafx/23"
+            fx:controller="com.example.myjavafxapp.controllers.Home_page_controller"
+            xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox prefHeight="15.0" prefWidth="1080.0" styleClass="header" BorderPane.alignment="CENTER">
+         <!--<Button mnemonicParsing="false" styleClass="button_header_exit"/>
+         <Button mnemonicParsing="false" styleClass="button_header_hide"/>
+         <Button mnemonicParsing="false" styleClass="button_header_FW"/> -->
+      </HBox>
+   </top>
+   <left>
+      <VBox prefHeight="705.0" prefWidth="280.0" styleClass="bar_home">
+         <Button fx:id="eventsButton" mnemonicParsing="false" styleClass="button_bar_home_page" text="EVENTS"/>
+         <Button fx:id="createEventButton" mnemonicParsing="false" styleClass="button_bar_home_page" text="CREATE EVENT"/>
+         <Button fx:id="applicationsButton" mnemonicParsing="false" styleClass="button_bar_home_page" text="APPLICATIONS"/>
+         <Button fx:id="judgeButton" mnemonicParsing="false" styleClass="button_bar_home_page" text="JUDGE"/>
+         <Button fx:id="personButton" mnemonicParsing="false" styleClass="button_bar_home_page" text="PERSON"/>
+         <Button fx:id="aboutAppButton" mnemonicParsing="false" styleClass="button_bar_home_page" text="ABOUT APP"/>
+      </VBox>
+   </left>
+   <center>
+      <Pane prefHeight="705.0" prefWidth="800.0" styleClass="workspace" BorderPane.alignment="CENTER"/>
+   </center>
+</BorderPane>

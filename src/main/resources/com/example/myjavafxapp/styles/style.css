@@ -1,0 +1,59 @@
+.button_bar_home_page {
+    -fx-pref-height: 70;
+    -fx-pref-width: 240;
+    -fx-background-radius: 50;
+    -fx-background-color: #D9D9D9;
+    -fx-font-size: 30;
+    -fx-font-family: "Arial Rounded MT Bold";
+
+}
+
+.bar_home {
+    -fx-background-color: #FFFFFF;
+    -fx-content-display: flex;
+    -fx-spacing: 30;
+    -fx-alignment: center;
+    -fx-padding: -104 0 0 0
+}
+
+.header {
+    -fx-content-display: flex;
+    border-bottom: 10px;
+    border-bottom-color: #000000;
+    -fx-background-color: #E4E4E4;
+}
+
+.scene {
+    -fx-background-radius: 10;
+}
+
+.workspace {
+    -fx-background-image: url("../image/image_for_workspace.png");
+    -fx-background-position: center; /* Позиционирование изображения */
+    -fx-background-repeat: no-repeat; /* Избегаем повторения изображения */
+    -fx-background-color: #F5F5F5;
+}
+
+.button_header_exit {
+    -fx-background-color: #FF0000;
+    -fx-pref-height: 13;
+    -fx-pref-width: 13;
+    -fx-background-radius: 50%;
+    -fx-spacing: 5;
+}
+
+.button_header_hide {
+    -fx-background-color: #FFB800;
+    -fx-pref-height: 13;
+    -fx-pref-width: 13;
+    -fx-background-radius: 50%;
+    -fx-spacing: 5;
+}
+
+.button_header_FW {
+    -fx-background-color: #05FF00;
+    -fx-pref-height: 13;
+    -fx-pref-width: 13;
+    -fx-background-radius: 50%;
+    -fx-spacing: 5;
+}
