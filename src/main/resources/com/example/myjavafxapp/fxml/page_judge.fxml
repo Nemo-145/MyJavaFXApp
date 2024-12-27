@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+
+<!-- Главный контейнер BorderPane, разделяющий область на 5 частей: левую, центральную, правую, верхнюю и нижнюю -->
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="720.0" prefWidth="1080.0"
+            stylesheets="@../styles/new_style.css"
+            xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myjavafxapp.controllers.Judge_controller">
+
+    <!-- Левая панель с меню кнопок -->
+    <left>
+        <VBox fx:id="Bar" styleClass="bar" prefHeight="705.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <!-- Кнопка "Event" с отступом сверху -->
+                <Button fx:id="Event" styleClass="button_bar" text="Event">
+                    <VBox.margin>
+                        <Insets top="21" />
+                    </VBox.margin>
+                </Button>
+                <!-- Остальные кнопки меню -->
+                <Button fx:id="Member" styleClass="button_bar" text="Member" />
+                <Button fx:id="Judge" styleClass="button_bar" text="Judge" />
+                <Button fx:id="Breed" styleClass="button_bar" text="Breed" />
+                <Button fx:id="About_app" styleClass="button_bar" text="About app" />
+                <Button fx:id="Create_pdf" styleClass="button_bar" text="Create PDF" />
+            </children>
+        </VBox>
+    </left>
+
+    <!-- Центральная область с прокручиваемым контейнером для динамического списка -->
+    <center>
+        <ScrollPane prefHeight="705.0" prefWidth="440.0" fitToWidth="true" hbarPolicy="NEVER" vbarPolicy="AS_NEEDED" BorderPane.alignment="CENTER" styleClass="all_info">
+            <content>
+                <!-- Контейнер для элементов списка -->
+                <VBox fx:id="space_for_list_judge" styleClass="space_for_list" />
+            </content>
+        </ScrollPane>
+    </center>
+
+    <!-- Правая панель с данными и кнопками -->
+    <right>
+        <VBox spacing="20" BorderPane.alignment="CENTER" prefWidth="440.0" prefHeight="705" styleClass="info_space">
+            <!-- Прокручиваемая область с данными -->
+            <ScrollPane fitToWidth="true" hbarPolicy="NEVER" prefWidth="440" prefHeight="645" vbarPolicy="AS_NEEDED">
+                <content>
+                    <!-- Контейнер для отображаемых данных -->
+                    <VBox fx:id="dataContainer_judge" spacing="20" />
+                </content>
+            </ScrollPane>
+
+            <!-- Контейнер для динамических кнопок, таких как Save, Clean и Remove Empty Fields -->
+            <HBox fx:id="buttonContainer" spacing="20" prefWidth="440" prefHeight="60" alignment="CENTER" styleClass="button_bottom">
+                <!-- Здесь будут динамически добавляться кнопки через контроллер -->
+            </HBox>
+        </VBox>
+    </right>
+
+    <!-- Верхняя панель с кнопками управления окном -->
+    <top>
+        <HBox fx:id="headerButtons" styleClass="header-buttons" spacing="7" alignment="CENTER_LEFT"
+              prefHeight="15.0" prefWidth="1080.0" BorderPane.alignment="CENTER">
+            <children>
+                <!-- Кнопка закрытия окна -->
+                <Button fx:id="closeButton" styleClass="button_header_exit"/>
+                <!-- Кнопка сворачивания окна -->
+                <Button fx:id="hideButton" styleClass="button_header_hide"/>
+                <!-- Кнопка минимизации окна -->
+                <Button fx:id="minimizeButton" styleClass="button_header_FW"/>
+            </children>
+        </HBox>
+    </top>
+
+</BorderPane>

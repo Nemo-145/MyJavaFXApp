@@ -1,0 +1,508 @@
+2024-12-23 15:27:58.630 INFO  [JavaFX Application Thread] c.e.m.controllers.Member_controller - Инициализация контроллера Member_controller
+2024-12-23 15:27:58.633 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Загрузка события по ID=1
+2024-12-23 15:27:58.650 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Загрузка списка участников (Members)
+2024-12-23 15:28:01.535 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Открываем окно поиска (Ctrl+T) в Member_controller
+2024-12-23 15:28:01.537 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Создание окна SearchDialog
+2024-12-23 15:28:01.552 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:28:01.676 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Окно SearchDialog создано успешно
+2024-12-23 15:28:01.678 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Показ окна SearchDialog (showAndWait)
+2024-12-23 15:28:10.897 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Нажата кнопка Event
+2024-12-23 15:28:10.898 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Переключение сцены на /com/example/myjavafxapp/fxml/page_event.fxml
+2024-12-23 15:28:10.919 INFO  [JavaFX Application Thread] c.e.m.controllers.EventController - Инициализация EventController
+2024-12-23 15:28:10.921 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Загрузка события ID=1
+2024-12-23 15:28:10.929 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Отображение деталей события ID=1
+2024-12-23 15:28:10.973 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Отображение кнопок в режиме просмотра
+2024-12-23 15:28:10.973 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Установка полей в режим editable=false
+2024-12-23 15:28:13.300 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Переключение на сцену Member
+2024-12-23 15:28:13.300 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Переключение сцены на /com/example/myjavafxapp/fxml/page_applications.fxml
+2024-12-23 15:28:13.307 INFO  [JavaFX Application Thread] c.e.m.controllers.Member_controller - Инициализация контроллера Member_controller
+2024-12-23 15:28:13.307 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Загрузка события по ID=1
+2024-12-23 15:28:13.314 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Загрузка списка участников (Members)
+2024-12-23 15:28:14.366 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Открываем окно поиска (Ctrl+T) в Member_controller
+2024-12-23 15:28:14.367 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Создание окна SearchDialog
+2024-12-23 15:28:14.368 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:28:14.455 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Окно SearchDialog создано успешно
+2024-12-23 15:28:14.455 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Показ окна SearchDialog (showAndWait)
+2024-12-23 15:28:16.841 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=n, isIdSearch=false, idValue=
+2024-12-23 15:28:17.307 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=ne, isIdSearch=false, idValue=
+2024-12-23 15:28:17.495 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nem, isIdSearch=false, idValue=
+2024-12-23 15:28:19.408 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=ne, isIdSearch=false, idValue=
+2024-12-23 15:28:19.653 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=n, isIdSearch=false, idValue=
+2024-12-23 15:28:19.873 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:28:20.075 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:28:21.166 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=b, isIdSearch=false, idValue=
+2024-12-23 15:28:21.813 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=br, isIdSearch=false, idValue=
+2024-12-23 15:28:22.166 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=bre, isIdSearch=false, idValue=
+2024-12-23 15:28:22.435 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=bree, isIdSearch=false, idValue=
+2024-12-23 15:28:22.770 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=breed, isIdSearch=false, idValue=
+2024-12-23 15:28:23.546 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=breed, isIdSearch=false, idValue=
+2024-12-23 15:28:27.453 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=bree, isIdSearch=false, idValue=
+2024-12-23 15:28:27.647 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=bre, isIdSearch=false, idValue=
+2024-12-23 15:28:27.825 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=br, isIdSearch=false, idValue=
+2024-12-23 15:28:27.993 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=b, isIdSearch=false, idValue=
+2024-12-23 15:28:28.165 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:28:28.317 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:28:32.253 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=m, isIdSearch=false, idValue=
+2024-12-23 15:28:33.020 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=me, isIdSearch=false, idValue=
+2024-12-23 15:28:33.384 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=mem, isIdSearch=false, idValue=
+2024-12-23 15:28:34.235 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=me, isIdSearch=false, idValue=
+2024-12-23 15:28:34.430 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=m, isIdSearch=false, idValue=
+2024-12-23 15:28:34.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:28:34.765 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:28:34.926 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:28:40.912 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=m, isIdSearch=false, idValue=
+2024-12-23 15:28:41.328 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=me, isIdSearch=false, idValue=
+2024-12-23 15:28:41.499 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=mem, isIdSearch=false, idValue=
+2024-12-23 15:28:42.289 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=memb, isIdSearch=false, idValue=
+2024-12-23 15:28:42.448 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=membe, isIdSearch=false, idValue=
+2024-12-23 15:28:42.528 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member, isIdSearch=false, idValue=
+2024-12-23 15:28:52.237 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=membe, isIdSearch=false, idValue=
+2024-12-23 15:28:52.473 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=memb, isIdSearch=false, idValue=
+2024-12-23 15:28:52.662 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=mem, isIdSearch=false, idValue=
+2024-12-23 15:28:52.834 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=me, isIdSearch=false, idValue=
+2024-12-23 15:28:53.004 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=m, isIdSearch=false, idValue=
+2024-12-23 15:28:53.185 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:28:53.350 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:28:53.508 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:29:00.878 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=#, isIdSearch=true, idValue=
+2024-12-23 15:29:02.273 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=#1, isIdSearch=true, idValue=1
+2024-12-23 15:29:08.774 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=#1-, isIdSearch=true, idValue=1-
+2024-12-23 15:29:09.901 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=#1, isIdSearch=true, idValue=1
+2024-12-23 15:29:10.206 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=#10, isIdSearch=true, idValue=10
+2024-12-23 15:29:13.967 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - В SearchDialog выбрано: Judge: YouKnowImiss (#10)
+2024-12-23 15:29:13.968 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Из поиска выбрано: Judge: YouKnowImiss (#10)
+2024-12-23 15:29:13.968 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Информационное сообщение: Переход на страницу судьи не реализован (Member_controller).
+2024-12-23 15:29:22.091 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Открываем окно поиска (Ctrl+T) в Member_controller
+2024-12-23 15:29:22.091 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Создание окна SearchDialog
+2024-12-23 15:29:22.092 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:29:22.160 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Окно SearchDialog создано успешно
+2024-12-23 15:29:22.160 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Показ окна SearchDialog (showAndWait)
+2024-12-23 15:29:24.030 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=n, isIdSearch=false, idValue=
+2024-12-23 15:29:24.394 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=ne, isIdSearch=false, idValue=
+2024-12-23 15:29:24.524 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nem, isIdSearch=false, idValue=
+2024-12-23 15:29:24.757 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nemo, isIdSearch=false, idValue=
+2024-12-23 15:29:26.929 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - В SearchDialog выбрано: Member: Nemo (#12)
+2024-12-23 15:29:26.929 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Из поиска выбрано: Member: Nemo (#12)
+2024-12-23 15:29:26.940 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Отображение деталей участника ID=12
+2024-12-23 15:29:26.969 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Отображение кнопок просмотра для участника ID=12
+2024-12-23 15:29:46.253 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Открываем окно поиска (Ctrl+T) в Member_controller
+2024-12-23 15:29:46.253 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Создание окна SearchDialog
+2024-12-23 15:29:46.254 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:29:46.308 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Окно SearchDialog создано успешно
+2024-12-23 15:29:46.308 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Показ окна SearchDialog (showAndWait)
+2024-12-23 15:29:48.523 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=a, isIdSearch=false, idValue=
+2024-12-23 15:29:49.565 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=ak, isIdSearch=false, idValue=
+2024-12-23 15:29:49.753 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=aki, isIdSearch=false, idValue=
+2024-12-23 15:29:50.074 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=akit, isIdSearch=false, idValue=
+2024-12-23 15:29:50.196 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=akita, isIdSearch=false, idValue=
+2024-12-23 15:29:51.587 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - В SearchDialog выбрано: Breed: Akita (#83)
+2024-12-23 15:29:51.587 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Из поиска выбрано: Breed: Akita (#83)
+2024-12-23 15:29:51.587 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Информационное сообщение: Переход на страницу пород не реализован (Member_controller).
+2024-12-23 15:29:57.328 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Нажата кнопка Judge
+2024-12-23 15:29:57.328 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Переключение сцены на /com/example/myjavafxapp/fxml/page_judge.fxml
+2024-12-23 15:29:57.342 INFO  [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Инициализация Judge_controller
+2024-12-23 15:29:57.342 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Загрузка списка судей (Judge_controller)
+2024-12-23 15:29:59.576 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Переход на страницу Breed (Judge_controller)
+2024-12-23 15:29:59.576 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Переключение сцены на /com/example/myjavafxapp/fxml/page_breed.fxml
+2024-12-23 15:29:59.588 INFO  [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Инициализация контроллера Breed_controller
+2024-12-23 15:29:59.598 INFO  [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Загрузка списка пород (Breed_controller)
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Afghan Hound
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Airedale Terrier
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Akita
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Alaskan Malamute
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Australian Shepherd
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Basenji
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Beagle
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bernese Mountain Dog
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bichon Frise
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bloodhound
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Border Collie
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Boston Terrier
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Boxer
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Brittany
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bull Terrier
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bulldog
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Cane Corso
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Cavalier King Charles Spaniel
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Chihuahua
+2024-12-23 15:29:59.605 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Chow Chow
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Cocker Spaniel
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Collie
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Dachshund
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Doberman Pinscher
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: English Springer Spaniel
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: German Shepherd
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Golden Retriever
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Great Dane
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Greyhound
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Havanese
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Irish Setter
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Labrador Retriever
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Lhasa Apso
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Maltese
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Newfoundland
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Old English Sheepdog
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Papillon
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Pomeranian
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Poodle
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Portuguese Water Dog
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Pug
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Rottweiler
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Saint Bernard
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Samoyed
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Scottish Terrier
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Shetland Sheepdog
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Shiba Inu
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Shih Tzu
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Siberian Husky
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Vizsla
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Weimaraner
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Whippet
+2024-12-23 15:29:59.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Yorkshire Terrier
+2024-12-23 15:30:05.730 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Открываем окно поиска (Ctrl+T) в Breed_controller
+2024-12-23 15:30:05.731 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Создание окна SearchDialog
+2024-12-23 15:30:05.731 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:30:05.785 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Окно SearchDialog создано успешно
+2024-12-23 15:30:05.786 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Показ окна SearchDialog (showAndWait)
+2024-12-23 15:30:11.863 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=b, isIdSearch=false, idValue=
+2024-12-23 15:30:12.293 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=br, isIdSearch=false, idValue=
+2024-12-23 15:30:12.398 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=bre, isIdSearch=false, idValue=
+2024-12-23 15:30:12.608 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=bree, isIdSearch=false, idValue=
+2024-12-23 15:30:12.826 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=breed, isIdSearch=false, idValue=
+2024-12-23 15:30:16.443 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - В SearchDialog выбрано: Breed: Whippet (#93)
+2024-12-23 15:30:16.443 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Из поиска выбрано: Breed: Whippet (#93)
+2024-12-23 15:30:16.443 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Информация: Переход кBreed_id=93)
+2024-12-23 15:30:24.151 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Кнопка Close (Breed_controller)
+2024-12-23 15:30:24.151 INFO  [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Закрытие приложения (Breed_controller)
+2024-12-23 15:30:41.959 INFO  [JavaFX Application Thread] c.e.m.controllers.EventController - Инициализация EventController
+2024-12-23 15:30:41.960 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Загрузка события ID=1
+2024-12-23 15:30:41.980 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Отображение деталей события ID=1
+2024-12-23 15:30:42.056 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Отображение кнопок в режиме просмотра
+2024-12-23 15:30:42.057 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Установка полей в режим editable=false
+2024-12-23 15:30:43.646 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Переключение на сцену Member
+2024-12-23 15:30:43.646 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Переключение сцены на /com/example/myjavafxapp/fxml/page_applications.fxml
+2024-12-23 15:30:43.657 INFO  [JavaFX Application Thread] c.e.m.controllers.Member_controller - Инициализация контроллера Member_controller
+2024-12-23 15:30:43.658 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Загрузка события по ID=1
+2024-12-23 15:30:43.665 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Загрузка списка участников (Members)
+2024-12-23 15:30:44.409 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Нажата кнопка PDF (Member_controller)
+2024-12-23 15:32:19.943 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Открываем окно поиска (Ctrl+T) в Member_controller
+2024-12-23 15:32:19.944 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Создание окна SearchDialog
+2024-12-23 15:32:19.945 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:32:20.032 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Окно SearchDialog создано успешно
+2024-12-23 15:32:20.033 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Показ окна SearchDialog (showAndWait)
+2024-12-23 15:32:21.074 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=n, isIdSearch=false, idValue=
+2024-12-23 15:32:21.197 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=ne, isIdSearch=false, idValue=
+2024-12-23 15:32:21.374 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nem, isIdSearch=false, idValue=
+2024-12-23 15:32:24.717 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=ne, isIdSearch=false, idValue=
+2024-12-23 15:32:24.910 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=n, isIdSearch=false, idValue=
+2024-12-23 15:32:25.098 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:32:25.316 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:32:33.412 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=m, isIdSearch=false, idValue=
+2024-12-23 15:32:33.749 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=me, isIdSearch=false, idValue=
+2024-12-23 15:32:33.875 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=mem, isIdSearch=false, idValue=
+2024-12-23 15:32:34.906 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=memb, isIdSearch=false, idValue=
+2024-12-23 15:32:35.024 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=membe, isIdSearch=false, idValue=
+2024-12-23 15:32:35.108 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member, isIdSearch=false, idValue=
+2024-12-23 15:32:35.274 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member, isIdSearch=false, idValue=
+2024-12-23 15:32:36.212 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member n, isIdSearch=false, idValue=
+2024-12-23 15:32:36.815 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member, isIdSearch=false, idValue=
+2024-12-23 15:32:37.609 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member n, isIdSearch=false, idValue=
+2024-12-23 15:32:37.686 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member ne, isIdSearch=false, idValue=
+2024-12-23 15:32:37.856 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member nem, isIdSearch=false, idValue=
+2024-12-23 15:32:38.272 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member ne, isIdSearch=false, idValue=
+2024-12-23 15:32:38.434 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member n, isIdSearch=false, idValue=
+2024-12-23 15:32:38.582 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member, isIdSearch=false, idValue=
+2024-12-23 15:32:38.726 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member, isIdSearch=false, idValue=
+2024-12-23 15:32:39.643 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member^, isIdSearch=false, idValue=
+2024-12-23 15:32:40.063 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member^, isIdSearch=false, idValue=
+2024-12-23 15:32:40.534 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member^, isIdSearch=false, idValue=
+2024-12-23 15:32:40.691 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member, isIdSearch=false, idValue=
+2024-12-23 15:32:41.508 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member;, isIdSearch=false, idValue=
+2024-12-23 15:32:42.231 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member, isIdSearch=false, idValue=
+2024-12-23 15:32:42.643 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member:, isIdSearch=false, idValue=
+2024-12-23 15:32:43.037 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member:, isIdSearch=false, idValue=
+2024-12-23 15:32:43.477 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member: n, isIdSearch=false, idValue=
+2024-12-23 15:32:43.600 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member: ne, isIdSearch=false, idValue=
+2024-12-23 15:32:43.955 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member: nem, isIdSearch=false, idValue=
+2024-12-23 15:32:45.401 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member: ne, isIdSearch=false, idValue=
+2024-12-23 15:32:46.041 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member: n, isIdSearch=false, idValue=
+2024-12-23 15:32:46.101 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member:, isIdSearch=false, idValue=
+2024-12-23 15:32:46.161 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member:, isIdSearch=false, idValue=
+2024-12-23 15:32:46.215 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=member, isIdSearch=false, idValue=
+2024-12-23 15:32:46.277 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=membe, isIdSearch=false, idValue=
+2024-12-23 15:32:46.330 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=memb, isIdSearch=false, idValue=
+2024-12-23 15:32:46.389 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=mem, isIdSearch=false, idValue=
+2024-12-23 15:32:46.440 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=me, isIdSearch=false, idValue=
+2024-12-23 15:32:46.494 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=m, isIdSearch=false, idValue=
+2024-12-23 15:32:46.548 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:32:46.604 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:32:46.659 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:32:46.710 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:32:46.771 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:32:46.828 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:32:46.889 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:32:46.946 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:33:00.361 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Нажата кнопка Event
+2024-12-23 15:33:00.361 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Переключение сцены на /com/example/myjavafxapp/fxml/page_event.fxml
+2024-12-23 15:33:00.367 INFO  [JavaFX Application Thread] c.e.m.controllers.EventController - Инициализация EventController
+2024-12-23 15:33:00.367 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Загрузка события ID=1
+2024-12-23 15:33:00.371 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Отображение деталей события ID=1
+2024-12-23 15:33:00.405 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Отображение кнопок в режиме просмотра
+2024-12-23 15:33:00.405 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Установка полей в режим editable=false
+2024-12-23 15:33:02.460 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Переключение на сцену Member
+2024-12-23 15:33:02.461 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Переключение сцены на /com/example/myjavafxapp/fxml/page_applications.fxml
+2024-12-23 15:33:02.467 INFO  [JavaFX Application Thread] c.e.m.controllers.Member_controller - Инициализация контроллера Member_controller
+2024-12-23 15:33:02.467 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Загрузка события по ID=1
+2024-12-23 15:33:02.472 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Загрузка списка участников (Members)
+2024-12-23 15:33:03.523 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Переход в режим добавления нового участника
+2024-12-23 15:33:03.523 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Добавление нового участника
+2024-12-23 15:33:03.525 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Создание полей для одной собаки
+2024-12-23 15:33:03.535 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Отображение кнопок редактирования/очистки для участника ID=0
+2024-12-23 15:33:40.430 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Сохранение изменений участника ID=0
+2024-12-23 15:33:47.785 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Сохранение изменений участника ID=0
+2024-12-23 15:33:47.785 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Сбор данных о собаках из полей ввода
+2024-12-23 15:33:47.785 WARN  [JavaFX Application Thread] c.e.m.controllers.Member_controller - Валидация собак не пройдена: 
+- Dog's age must be an integer between 1 and 15.
+
+2024-12-23 15:33:47.785 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Ошибка валидации: - Dog's age must be an integer between 1 and 15.
+
+2024-12-23 15:33:52.250 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Сохранение изменений участника ID=0
+2024-12-23 15:33:52.251 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Сбор данных о собаках из полей ввода
+2024-12-23 15:33:52.251 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Сохранение изменений участника ID=0
+2024-12-23 15:33:52.280 INFO  [JavaFX Application Thread] c.e.m.controllers.Member_controller - Новый участник ID=18 успешно сохранён
+2024-12-23 15:33:52.280 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Загрузка списка участников (Members)
+2024-12-23 15:33:52.329 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Отображение деталей участника ID=18
+2024-12-23 15:33:52.359 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Отображение кнопок просмотра для участника ID=18
+2024-12-23 15:33:56.494 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Открываем окно поиска (Ctrl+T) в Member_controller
+2024-12-23 15:33:56.494 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Создание окна SearchDialog
+2024-12-23 15:33:56.494 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:33:56.556 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Окно SearchDialog создано успешно
+2024-12-23 15:33:56.556 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Показ окна SearchDialog (showAndWait)
+2024-12-23 15:33:57.583 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=n, isIdSearch=false, idValue=
+2024-12-23 15:33:57.686 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=ne, isIdSearch=false, idValue=
+2024-12-23 15:33:57.927 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nem, isIdSearch=false, idValue=
+2024-12-23 15:34:00.111 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nemo, isIdSearch=false, idValue=
+2024-12-23 15:34:00.282 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nemoo, isIdSearch=false, idValue=
+2024-12-23 15:34:00.923 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nemooo, isIdSearch=false, idValue=
+2024-12-23 15:34:00.987 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nemoooo, isIdSearch=false, idValue=
+2024-12-23 15:34:01.045 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nemooooo, isIdSearch=false, idValue=
+2024-12-23 15:34:01.106 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nemoooooo, isIdSearch=false, idValue=
+2024-12-23 15:34:01.189 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nemooooooo, isIdSearch=false, idValue=
+2024-12-23 15:34:01.706 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nemoooooo, isIdSearch=false, idValue=
+2024-12-23 15:34:01.919 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nemooooo, isIdSearch=false, idValue=
+2024-12-23 15:34:02.204 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nemoooo, isIdSearch=false, idValue=
+2024-12-23 15:34:02.541 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nemooo, isIdSearch=false, idValue=
+2024-12-23 15:34:03.240 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nemoo, isIdSearch=false, idValue=
+2024-12-23 15:34:03.464 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nemo, isIdSearch=false, idValue=
+2024-12-23 15:34:03.660 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=nem, isIdSearch=false, idValue=
+2024-12-23 15:34:04.117 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=ne, isIdSearch=false, idValue=
+2024-12-23 15:34:04.326 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=n, isIdSearch=false, idValue=
+2024-12-23 15:34:04.520 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:34:04.712 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:34:04.892 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:34:13.909 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Открываем окно поиска (Ctrl+T) в Member_controller
+2024-12-23 15:34:13.909 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Создание окна SearchDialog
+2024-12-23 15:34:13.909 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:34:13.973 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Окно SearchDialog создано успешно
+2024-12-23 15:34:13.973 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Показ окна SearchDialog (showAndWait)
+2024-12-23 15:34:18.736 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Нажата кнопка Judge
+2024-12-23 15:34:18.737 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Переключение сцены на /com/example/myjavafxapp/fxml/page_judge.fxml
+2024-12-23 15:34:18.744 INFO  [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Инициализация Judge_controller
+2024-12-23 15:34:18.745 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Загрузка списка судей (Judge_controller)
+2024-12-23 15:34:19.968 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Выбран судья: Nick
+2024-12-23 15:34:19.968 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Отображение деталей судьи ID=7
+2024-12-23 15:34:19.977 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Отображение кнопок просмотра судьи ID=7
+2024-12-23 15:34:20.430 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Выбран судья: Nick
+2024-12-23 15:34:20.430 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Отображение деталей судьи ID=9
+2024-12-23 15:34:20.438 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Отображение кнопок просмотра судьи ID=9
+2024-12-23 15:34:20.846 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Выбран судья: New
+2024-12-23 15:34:20.847 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Отображение деталей судьи ID=11
+2024-12-23 15:34:20.854 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Отображение кнопок просмотра судьи ID=11
+2024-12-23 15:34:21.588 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Переход на страницу Breed (Judge_controller)
+2024-12-23 15:34:21.588 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Переключение сцены на /com/example/myjavafxapp/fxml/page_breed.fxml
+2024-12-23 15:34:21.596 INFO  [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Инициализация контроллера Breed_controller
+2024-12-23 15:34:21.597 INFO  [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Загрузка списка пород (Breed_controller)
+2024-12-23 15:34:21.601 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Afghan Hound
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Airedale Terrier
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Akita
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Alaskan Malamute
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Australian Shepherd
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Basenji
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Beagle
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bernese Mountain Dog
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bichon Frise
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bloodhound
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Border Collie
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Boston Terrier
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Boxer
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Brittany
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bull Terrier
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bulldog
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Cane Corso
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Cavalier King Charles Spaniel
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Chihuahua
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Chow Chow
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Cocker Spaniel
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Collie
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Dachshund
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Doberman Pinscher
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: English Springer Spaniel
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: German Shepherd
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Golden Retriever
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Great Dane
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Greyhound
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Havanese
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Irish Setter
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Labrador Retriever
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Lhasa Apso
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Maltese
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Newfoundland
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Old English Sheepdog
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Papillon
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Pomeranian
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Poodle
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Portuguese Water Dog
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Pug
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Rottweiler
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Saint Bernard
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Samoyed
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Scottish Terrier
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Shetland Sheepdog
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Shiba Inu
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Shih Tzu
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Siberian Husky
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Vizsla
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Weimaraner
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Whippet
+2024-12-23 15:34:21.602 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Yorkshire Terrier
+2024-12-23 15:34:22.651 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Нажата кнопка породы: Afghan Hound
+2024-12-23 15:34:22.652 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Загрузка владельцев породы 'Afghan Hound'
+2024-12-23 15:34:23.102 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Нажата кнопка породы: Airedale Terrier
+2024-12-23 15:34:23.102 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Загрузка владельцев породы 'Airedale Terrier'
+2024-12-23 15:34:23.597 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Нажата кнопка породы: Akita
+2024-12-23 15:34:23.598 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Загрузка владельцев породы 'Akita'
+2024-12-23 15:34:23.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Владелец: Nemo (Age: 19)
+2024-12-23 15:34:23.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Владелец: Nickolas (Age: 19)
+2024-12-23 15:34:23.606 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Владелец: Nemo (Age: 19)
+2024-12-23 15:34:52.411 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Переход к Judge (Breed_controller)
+2024-12-23 15:34:52.411 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Переключение сцены: /com/example/myjavafxapp/fxml/page_judge.fxml
+2024-12-23 15:34:52.417 INFO  [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Инициализация Judge_controller
+2024-12-23 15:34:52.417 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Загрузка списка судей (Judge_controller)
+2024-12-23 15:34:54.571 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Открываем окно поиска (Ctrl+T) в Judge_controller
+2024-12-23 15:34:54.572 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Создание окна SearchDialog
+2024-12-23 15:34:54.572 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 15:34:54.653 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Окно SearchDialog создано успешно
+2024-12-23 15:34:54.654 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Показ окна SearchDialog (showAndWait)
+2024-12-23 15:34:55.299 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=n, isIdSearch=false, idValue=
+2024-12-23 15:34:55.367 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=ne, isIdSearch=false, idValue=
+2024-12-23 15:34:55.447 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=new, isIdSearch=false, idValue=
+2024-12-23 15:35:02.657 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Закрытие окна судей (Judge_controller)
+2024-12-23 18:33:32.481 INFO  [JavaFX Application Thread] c.e.m.controllers.Member_controller - Инициализация контроллера Member_controller
+2024-12-23 18:33:32.482 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Загрузка события по ID=1
+2024-12-23 18:33:32.498 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Загрузка списка участников (Members)
+2024-12-23 18:33:34.180 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Открываем окно поиска (Ctrl+T) в Member_controller
+2024-12-23 18:33:34.182 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Создание окна SearchDialog
+2024-12-23 18:33:34.193 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 18:33:34.308 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Окно SearchDialog создано успешно
+2024-12-23 18:33:34.309 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Показ окна SearchDialog (showAndWait)
+2024-12-23 18:33:41.421 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - В SearchDialog выбрано: Member: Kagami (#13)
+2024-12-23 18:33:41.422 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Из поиска выбрано: Member: Kagami (#13)
+2024-12-23 18:33:41.437 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Отображение деталей участника ID=13
+2024-12-23 18:33:41.482 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Отображение кнопок просмотра для участника ID=13
+2024-12-23 18:33:46.172 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Открываем окно поиска (Ctrl+T) в Member_controller
+2024-12-23 18:33:46.173 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Создание окна SearchDialog
+2024-12-23 18:33:46.173 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 18:33:46.261 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Окно SearchDialog создано успешно
+2024-12-23 18:33:46.261 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Показ окна SearchDialog (showAndWait)
+2024-12-23 18:33:54.333 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Открываем окно поиска (Ctrl+T) в Member_controller
+2024-12-23 18:33:54.333 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Создание окна SearchDialog
+2024-12-23 18:33:54.334 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 18:33:54.417 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Окно SearchDialog создано успешно
+2024-12-23 18:33:54.418 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Показ окна SearchDialog (showAndWait)
+2024-12-23 18:34:00.488 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=#, isIdSearch=true, idValue=
+2024-12-23 18:34:03.583 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=#8, isIdSearch=true, idValue=8
+2024-12-23 18:34:03.681 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=#83, isIdSearch=true, idValue=83
+2024-12-23 18:34:05.088 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=#8, isIdSearch=true, idValue=8
+2024-12-23 18:34:05.264 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=#, isIdSearch=true, idValue=
+2024-12-23 18:34:05.516 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 18:34:05.771 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=, isIdSearch=false, idValue=
+2024-12-23 18:34:13.329 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=#, isIdSearch=true, idValue=
+2024-12-23 18:34:14.511 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=#1, isIdSearch=true, idValue=1
+2024-12-23 18:34:14.665 DEBUG [JavaFX Application Thread] c.e.m.controllers.SearchDialog - Поиск: query=#10, isIdSearch=true, idValue=10
+2024-12-23 18:34:32.480 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Нажата кнопка Event
+2024-12-23 18:34:32.481 DEBUG [JavaFX Application Thread] c.e.m.controllers.Member_controller - Переключение сцены на /com/example/myjavafxapp/fxml/page_event.fxml
+2024-12-23 18:34:32.494 INFO  [JavaFX Application Thread] c.e.m.controllers.EventController - Инициализация EventController
+2024-12-23 18:34:32.496 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Загрузка события ID=1
+2024-12-23 18:34:32.502 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Отображение деталей события ID=1
+2024-12-23 18:34:32.534 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Отображение кнопок в режиме просмотра
+2024-12-23 18:34:32.534 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Установка полей в режим editable=false
+2024-12-23 18:34:33.882 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Переключение на сцену Judge
+2024-12-23 18:34:33.883 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Переключение сцены на /com/example/myjavafxapp/fxml/page_judge.fxml
+2024-12-23 18:34:33.892 INFO  [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Инициализация Judge_controller
+2024-12-23 18:34:33.893 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Загрузка списка судей (Judge_controller)
+2024-12-23 18:34:34.343 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Переход на страницу Breed (Judge_controller)
+2024-12-23 18:34:34.343 DEBUG [JavaFX Application Thread] c.e.m.controllers.Judge_controller - Переключение сцены на /com/example/myjavafxapp/fxml/page_breed.fxml
+2024-12-23 18:34:34.353 INFO  [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Инициализация контроллера Breed_controller
+2024-12-23 18:34:34.354 INFO  [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Загрузка списка пород (Breed_controller)
+2024-12-23 18:34:34.360 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Afghan Hound
+2024-12-23 18:34:34.361 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Airedale Terrier
+2024-12-23 18:34:34.361 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Akita
+2024-12-23 18:34:34.361 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Alaskan Malamute
+2024-12-23 18:34:34.361 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Australian Shepherd
+2024-12-23 18:34:34.361 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Basenji
+2024-12-23 18:34:34.361 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Beagle
+2024-12-23 18:34:34.361 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bernese Mountain Dog
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bichon Frise
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bloodhound
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Border Collie
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Boston Terrier
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Boxer
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Brittany
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bull Terrier
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bulldog
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Cane Corso
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Cavalier King Charles Spaniel
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Chihuahua
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Chow Chow
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Cocker Spaniel
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Collie
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Dachshund
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Doberman Pinscher
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: English Springer Spaniel
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: German Shepherd
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Golden Retriever
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Great Dane
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Greyhound
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Havanese
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Irish Setter
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Labrador Retriever
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Lhasa Apso
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Maltese
+2024-12-23 18:34:34.362 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Newfoundland
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Old English Sheepdog
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Papillon
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Pomeranian
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Poodle
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Portuguese Water Dog
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Pug
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Rottweiler
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Saint Bernard
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Samoyed
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Scottish Terrier
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Shetland Sheepdog
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Shiba Inu
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Shih Tzu
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Siberian Husky
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Vizsla
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Weimaraner
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Whippet
+2024-12-23 18:34:34.363 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Yorkshire Terrier
+2024-12-23 18:34:35.327 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Переход к Event (Breed_controller)
+2024-12-23 18:34:35.327 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Переключение сцены: /com/example/myjavafxapp/fxml/page_event.fxml
+2024-12-23 18:34:35.334 INFO  [JavaFX Application Thread] c.e.m.controllers.EventController - Инициализация EventController
+2024-12-23 18:34:35.334 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Загрузка события ID=1
+2024-12-23 18:34:35.340 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Отображение деталей события ID=1
+2024-12-23 18:34:35.372 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Отображение кнопок в режиме просмотра
+2024-12-23 18:34:35.372 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Установка полей в режим editable=false
+2024-12-23 18:36:15.063 DEBUG [JavaFX Application Thread] c.e.m.controllers.EventController - Нажата кнопка 'Close'
+2024-12-23 18:36:15.063 INFO  [JavaFX Application Thread] c.e.m.controllers.EventController - Закрытие приложения

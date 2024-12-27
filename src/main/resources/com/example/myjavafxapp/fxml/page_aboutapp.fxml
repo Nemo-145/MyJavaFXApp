@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+            xmlns="http://javafx.com/javafx/23.0.1"
+            fx:controller="com.example.myjavafxapp.controllers.AboutApp_controller"
+            prefWidth="1080" prefHeight="720"
+            stylesheets="@../styles/new_style.css">
+
+    <!-- Левая панель с меню кнопок -->
+    <left>
+        <VBox fx:id="Bar" styleClass="bar" prefHeight="705.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <!-- Кнопка "Event" с отступом сверху -->
+                <Button fx:id="Event" styleClass="button_bar" text="Event">
+                    <VBox.margin>
+                        <Insets top="21" />
+                    </VBox.margin>
+                </Button>
+                <!-- Остальные кнопки меню -->
+                <Button fx:id="Member" styleClass="button_bar" text="Member" />
+                <Button fx:id="Judge" styleClass="button_bar" text="Judge" />
+                <Button fx:id="Breed" styleClass="button_bar" text="Breed" />
+                <Button fx:id="About_app" styleClass="button_bar" text="About app" />
+                <Button fx:id="Create_pdf" styleClass="button_bar" text="Create PDF" />
+            </children>
+        </VBox>
+    </left>
+
+    <!-- Верхняя панель с кнопками управления окном -->
+    <top>
+        <HBox fx:id="headerButtons" spacing="7" alignment="CENTER_LEFT" styleClass="header-buttons"
+              prefHeight="15.0" prefWidth="1080.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="closeButton" styleClass="button_header_exit"/>
+                <Button fx:id="hideButton" styleClass="button_header_hide"/>
+                <Button fx:id="minimizeButton" styleClass="button_header_FW"/>
+            </children>
+        </HBox>
+    </top>
+
+    <center>
+        <BorderPane styleClass="workspace" BorderPane.alignment="CENTER">
+            <center>
+                <ScrollPane fx:id="aboutScrollPane" fitToWidth="true" fitToHeight="true">
+                    <content>
+                        <TextArea fx:id="aboutText" editable="false" wrapText="true" />
+                    </content>
+                </ScrollPane>
+            </center>
+            <bottom>
+                <HBox alignment="CENTER" spacing="10" styleClass="button_bottom">
+                    <children>
+                        <Button fx:id="backToHome" text="Back to Home" />
+                    </children>
+                </HBox>
+            </bottom>
+        </BorderPane>
+    </center>
+
+</BorderPane>

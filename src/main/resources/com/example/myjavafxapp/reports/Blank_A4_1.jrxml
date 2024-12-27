@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.21.3-4a3078d20785ebe464f18037d738d12fc98c13cf  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="all_tables_grouped_report" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="be1e4fe7-21e0-418d-a0a6-23ab74b46796">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="newnew"/>
+	<queryString language="xPath">
+		<![CDATA[/database/table/row]]>
+	</queryString>
+	<field name="table_name" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression" value="../@name"/>
+	</field>
+	<field name="id" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression">
+			<![CDATA[column[@name='id']]]>
+		</property>
+	</field>
+	<field name="name" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression">
+			<![CDATA[column[@name='name']]]>
+		</property>
+	</field>
+	<field name="age" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression">
+			<![CDATA[column[@name='age']]]>
+		</property>
+	</field>
+	<field name="experience" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression">
+			<![CDATA[column[@name='experience']]]>
+		</property>
+	</field>
+	<field name="breed_id" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression">
+			<![CDATA[column[@name='breed_id']]]>
+		</property>
+	</field>
+	<field name="owner_id" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression">
+			<![CDATA[column[@name='owner_id']]]>
+		</property>
+	</field>
+	<field name="location" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression">
+			<![CDATA[column[@name='location']]]>
+		</property>
+	</field>
+	<field name="event_time" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression">
+			<![CDATA[column[@name='event_time']]]>
+		</property>
+	</field>
+	<field name="participant_count" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression">
+			<![CDATA[column[@name='participant_count']]]>
+		</property>
+	</field>
+	<field name="judge_count" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression">
+			<![CDATA[column[@name='judge_count']]]>
+		</property>
+	</field>
+	<field name="winner_id" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression">
+			<![CDATA[column[@name='winner_id']]]>
+		</property>
+	</field>
+	<field name="prize_pool" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression">
+			<![CDATA[column[@name='prize_pool']]]>
+		</property>
+	</field>
+	<field name="event_id" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression">
+			<![CDATA[column[@name='event_id']]]>
+		</property>
+	</field>
+	<field name="created_at" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression">
+			<![CDATA[column[@name='created_at']]]>
+		</property>
+	</field>
+	<field name="updated_at" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression">
+			<![CDATA[column[@name='updated_at']]]>
+		</property>
+	</field>
+	<field name="judge_id" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression">
+			<![CDATA[column[@name='judge_id']]]>
+		</property>
+	</field>
+	<field name="member_id" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression">
+			<![CDATA[column[@name='member_id']]]>
+		</property>
+	</field>
+	<sortField name="table_name"/>
+	<group name="tableGroup">
+		<groupExpression><![CDATA[$F{table_name}]]></groupExpression>
+		<groupHeader>
+			<band height="50">
+				<textField>
+					<reportElement x="0" y="0" width="300" height="20" uuid="2e35c630-f2d6-4c40-8e65-81e1d113dfa6"/>
+					<box>
+						<pen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement>
+						<font size="12" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{table_name}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="25" width="50" height="20" uuid="d4285b45-ba77-4526-b760-0dcc391e8c71">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("breed")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<text><![CDATA[ID]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="60" y="25" width="100" height="20" uuid="1d840391-8d9d-4fc8-8c9c-7cdfa442b2bd">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("breed")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<text><![CDATA[Name]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="25" width="50" height="20" uuid="d18fc9db-ba0a-4d8e-9fcd-e2a352110e03">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("member")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[ID]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="60" y="25" width="100" height="20" uuid="3f52be98-eb71-48ad-8697-400b54f96699">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("member")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Name]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="170" y="25" width="50" height="20" uuid="ba85f7be-1e0d-4a0d-bf99-1928e2f89bec">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("member")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Age]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="230" y="25" width="60" height="20" uuid="bdc7f231-f15f-429f-80d1-2ea6821d25af">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("member")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Event_ID]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="25" width="50" height="20" uuid="eeb835f9-6ba8-4d34-8451-7bbc9cc94315">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("judge")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[ID]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="60" y="25" width="80" height="20" uuid="5d806139-6bae-4b2a-b43f-9cc8969ea65d">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("judge")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Name]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="150" y="25" width="50" height="20" uuid="f3cf3fda-50f9-4ddd-bfe5-1580f9acd1e7">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("judge")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Age]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="210" y="25" width="80" height="20" uuid="79af661a-64e0-46e3-ac2a-b499c127512f">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("judge")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Exp]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="300" y="25" width="70" height="20" uuid="b113a02c-5a9e-45a9-96ca-13960b375cf8">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("judge")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Breed_ID]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="380" y="25" width="70" height="20" uuid="694d756c-03de-4647-a3ad-2de248536a8f">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("judge")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Event_ID]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="25" width="50" height="20" uuid="74dd5c6d-174b-4fe4-b8f5-b94c10951c1c">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("dog")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[ID]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="60" y="25" width="80" height="20" uuid="ec0a3f6e-be71-433a-abab-97e636ee32d7">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("dog")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Name]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="150" y="25" width="70" height="20" uuid="c53835c9-7332-4b76-b0f6-acfecd449f9d">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("dog")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Breed_ID]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="230" y="25" width="70" height="20" uuid="9a62b9e7-9ca9-4801-8bb1-3860f18a4b2c">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("dog")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Owner_ID]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="310" y="25" width="50" height="20" uuid="60ca0ac1-1114-4a3b-96fd-9623f93c0344">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("dog")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Age]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="25" width="30" height="20" uuid="21917188-bc79-4e25-85dc-b81cc24c2d97">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("event")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[ID]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="40" y="25" width="80" height="20" uuid="d2e6caf2-9d41-499d-8240-a7fd0a0a6253">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("event")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Location]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="130" y="25" width="80" height="20" uuid="4d8c5ca4-868a-4410-8056-2775d8838edd">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("event")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Event Time]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="220" y="25" width="90" height="20" uuid="14ba99c8-9faa-47ae-b386-91938b496ef3">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("event")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Part. Count]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="320" y="25" width="90" height="20" uuid="04e29f5a-5e85-44ff-a192-b0432e17f702">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("event")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Judge Count]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="420" y="25" width="60" height="20" uuid="0ed3907f-ef23-4008-b8c5-f8d5fda3d2c6">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("event")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Winner_ID]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="490" y="25" width="60" height="20" uuid="18a2ff71-9f4b-4132-a7dd-dfc6bbaeda5c">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("event")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Prize]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="25" width="80" height="20" uuid="fe724af1-5db2-4fa8-9abc-efa3830967a4">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("judge_breeds")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Judge_ID]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="100" y="25" width="80" height="20" uuid="29c2f8d3-a275-405d-acb8-1f64937656e8">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("judge_breeds")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Breed_ID]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="25" width="80" height="20" uuid="d14e303d-c3e9-4292-a1ec-f2126bd7a618">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("event_winners")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Event_ID]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="100" y="25" width="80" height="20" uuid="e462b5a1-79dc-4f46-a32e-9a7de454f5e1">
+						<printWhenExpression><![CDATA[$F{table_name}.equals("event_winners")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<text><![CDATA[Member_ID]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="10"/>
+		</groupFooter>
+	</group>
+	<title>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="300" height="20" uuid="1f591412-ded7-4c93-9b6b-e3eedc5d5264"/>
+				<text><![CDATA[Все таблицы и их строки]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band/>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="50" height="20" uuid="ee22d011-d3ce-4e8a-97d0-6d58b1ae2fe6">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("breed")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="60" y="0" width="100" height="20" uuid="885fd6d0-7d8d-4162-bfe1-41c8e640a46e">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("breed")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="50" height="20" uuid="aac2653f-91ae-4eb8-9525-53bd7b2962ac">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("member")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="60" y="0" width="100" height="20" uuid="342af317-c06a-40e2-993b-affc13c8c163">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("member")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="170" y="0" width="50" height="20" uuid="3808bece-cb3c-4a27-857f-0c334a747b24">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("member")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{age}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="230" y="0" width="60" height="20" uuid="a4148def-32f5-48f3-a947-a02867138a37">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("member")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{event_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="50" height="20" uuid="653c321c-d4b3-4ab8-beac-918f7f3c1ee1">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("judge")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="60" y="0" width="80" height="20" uuid="69496e80-36da-490f-8c59-ab57257e7b1e">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("judge")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="150" y="0" width="50" height="20" uuid="9a2aa99c-2a8f-41ce-add0-1634d0452880">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("judge")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{age}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="210" y="0" width="80" height="20" uuid="efec38f0-90d2-4b94-8cdf-7e61b1e2bd71">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("judge")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{experience}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="300" y="0" width="70" height="20" uuid="7a551322-5674-4c00-8e0d-501d04fe5725">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("judge")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{breed_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="380" y="0" width="70" height="20" uuid="a7c73373-f78c-4384-aa58-a3495688bc72">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("judge")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{event_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="50" height="20" uuid="02491a1b-ff5c-4585-9332-530b03d05e71">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("dog")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="60" y="0" width="80" height="20" uuid="af83af60-4535-4c7d-9409-43cbe09b1073">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("dog")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="150" y="0" width="70" height="20" uuid="fc0f9b71-1295-4127-962c-805d43ed432f">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("dog")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{breed_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="230" y="0" width="70" height="20" uuid="039e760d-7aad-49ca-be69-8ce49fa1a000">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("dog")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{owner_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="310" y="0" width="50" height="20" uuid="7fe45a3a-9561-4c61-93e8-e9d2eff403a1">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("dog")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{age}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="30" height="20" uuid="ff584c01-ed9f-41ee-b80b-16a9be321e1b">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("event")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="40" y="0" width="80" height="20" uuid="b0a42ab5-6d94-4712-b0f1-2027355ec816">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("event")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{location}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="130" y="0" width="80" height="20" uuid="e5950be5-53d2-4707-bac3-9be7a3ea390e">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("event")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{event_time}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="220" y="0" width="90" height="20" uuid="e308d2a9-98be-42e5-990b-bda25e407749">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("event")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{participant_count}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="320" y="0" width="90" height="20" uuid="e088e487-2e4c-444b-ab22-c06c53f835b5">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("event")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{judge_count}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="420" y="0" width="60" height="20" uuid="b8ccd148-31b2-476c-95fd-b9f6d94e3b32">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("event")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{winner_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="490" y="0" width="60" height="20" uuid="baf24efd-d27a-4b52-a7d6-132cedbb8af5">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("event")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{prize_pool}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="80" height="20" uuid="1fd43289-d399-4621-b6dc-ee744de70fd4">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("judge_breeds")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{judge_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="100" y="0" width="80" height="20" uuid="f40e3343-cbec-4e9c-aee8-b4c3e7e8e519">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("judge_breeds")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{breed_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="80" height="20" uuid="647451ac-7d0f-43c7-a77c-6c3e9d560975">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("event_winners")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{event_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="100" y="0" width="80" height="20" uuid="3a6b6111-b8a0-4480-8ab0-bc2f7ba648ee">
+					<printWhenExpression><![CDATA[$F{table_name}.equals("event_winners")]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{member_id}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="50" height="20" uuid="5a2c1670-ad72-4693-8126-4ee725c5be15"/>
+				<text><![CDATA[Страница]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="60" y="0" width="50" height="20" uuid="63f69e2c-5814-4241-af1b-794243ab0cf4"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

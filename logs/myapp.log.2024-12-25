@@ -1,0 +1,57 @@
+2024-12-25 01:59:44.547 INFO  [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Инициализация контроллера Breed_controller
+2024-12-25 01:59:44.550 INFO  [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Загрузка списка пород (Breed_controller)
+2024-12-25 01:59:44.564 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Afghan Hound
+2024-12-25 01:59:44.566 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Airedale Terrier
+2024-12-25 01:59:44.566 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Akita
+2024-12-25 01:59:44.566 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Alaskan Malamute
+2024-12-25 01:59:44.566 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Australian Shepherd
+2024-12-25 01:59:44.566 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Basenji
+2024-12-25 01:59:44.566 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Beagle
+2024-12-25 01:59:44.566 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bernese Mountain Dog
+2024-12-25 01:59:44.566 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bichon Frise
+2024-12-25 01:59:44.566 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bloodhound
+2024-12-25 01:59:44.567 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Border Collie
+2024-12-25 01:59:44.567 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Boston Terrier
+2024-12-25 01:59:44.567 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Boxer
+2024-12-25 01:59:44.567 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Brittany
+2024-12-25 01:59:44.567 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bull Terrier
+2024-12-25 01:59:44.567 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Bulldog
+2024-12-25 01:59:44.567 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Cane Corso
+2024-12-25 01:59:44.567 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Cavalier King Charles Spaniel
+2024-12-25 01:59:44.567 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Chihuahua
+2024-12-25 01:59:44.567 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Chow Chow
+2024-12-25 01:59:44.567 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Cocker Spaniel
+2024-12-25 01:59:44.567 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Collie
+2024-12-25 01:59:44.567 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Dachshund
+2024-12-25 01:59:44.567 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Doberman Pinscher
+2024-12-25 01:59:44.567 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: English Springer Spaniel
+2024-12-25 01:59:44.567 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: German Shepherd
+2024-12-25 01:59:44.569 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Golden Retriever
+2024-12-25 01:59:44.569 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Great Dane
+2024-12-25 01:59:44.569 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Greyhound
+2024-12-25 01:59:44.569 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Havanese
+2024-12-25 01:59:44.569 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Irish Setter
+2024-12-25 01:59:44.569 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Labrador Retriever
+2024-12-25 01:59:44.569 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Lhasa Apso
+2024-12-25 01:59:44.569 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Maltese
+2024-12-25 01:59:44.569 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Newfoundland
+2024-12-25 01:59:44.569 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Old English Sheepdog
+2024-12-25 01:59:44.569 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Papillon
+2024-12-25 01:59:44.570 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Pomeranian
+2024-12-25 01:59:44.570 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Poodle
+2024-12-25 01:59:44.570 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Portuguese Water Dog
+2024-12-25 01:59:44.570 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Pug
+2024-12-25 01:59:44.570 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Rottweiler
+2024-12-25 01:59:44.570 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Saint Bernard
+2024-12-25 01:59:44.570 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Samoyed
+2024-12-25 01:59:44.570 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Scottish Terrier
+2024-12-25 01:59:44.570 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Shetland Sheepdog
+2024-12-25 01:59:44.570 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Shiba Inu
+2024-12-25 01:59:44.570 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Shih Tzu
+2024-12-25 01:59:44.570 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Siberian Husky
+2024-12-25 01:59:44.570 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Vizsla
+2024-12-25 01:59:44.570 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Weimaraner
+2024-12-25 01:59:44.571 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Whippet
+2024-12-25 01:59:44.571 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Создание кнопки для породы: Yorkshire Terrier
+2024-12-25 01:59:54.230 DEBUG [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Кнопка Close (Breed_controller)
+2024-12-25 01:59:54.231 INFO  [JavaFX Application Thread] c.e.m.controllers.Breed_controller - Закрытие приложения (Breed_controller)

@@ -57,3 +57,17 @@
     -fx-background-radius: 50%;
     -fx-spacing: 5;
 }
+
+.root {
+    -fx-background-color: white; /* Цвет фона */
+    -fx-background-radius: 100%; /* Радиус закругления */
+}
+
+.stage {
+    -fx-background-color: transparent; /* Сделать фон прозрачным для окон с закруглениями */
+}
+
+.workspace_breed {
+    -fx-background-color: #F5F5F5;
+
+}

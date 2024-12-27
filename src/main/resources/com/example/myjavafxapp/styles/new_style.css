@@ -1,0 +1,86 @@
+.header-buttons {
+    -fx-background-color: #E4E4E4;
+}
+/* Общий стиль для всех кнопок управления */
+.header-buttons > .button {
+    -fx-background-radius: 50%; /* Закругление кнопок */
+    -fx-min-width: 13px;
+    -fx-min-height: 13px;
+    -fx-max-width: 13px;
+    -fx-max-height: 13px;
+    -fx-padding: 0;
+}
+
+/* Индивидуальные стили для каждой кнопки */
+.button_header_exit {
+    -fx-background-color: #FF0000;
+}
+
+.button_header_hide {
+    -fx-background-color: #FFB800;
+}
+
+.button_header_FW {
+    -fx-background-color: #05FF00;
+}
+
+
+.button_bar {
+    -fx-pref-height: 40;
+    -fx-pref-width: 160;
+    -fx-background-radius: 15;
+    -fx-background-color: #F5F5F5;
+    -fx-font-size: 24;
+    -fx-font-family: "Arial Rounded MT Bold";
+}
+.button_bar:hover{
+    -fx-background-color: #D9D9D9;
+}
+.button_bar:pressed{
+    -fx-background-color: #D9D9D9;
+}
+
+.bar {
+    -fx-background-color: #F5F5F5;
+    -fx-spacing: 25;
+    -fx-alignment: TOP_CENTER;
+}
+
+#Event {
+    -fx-padding: 0px; /* Внутренний отступ */
+
+}
+.workspace {
+    -fx-background-color: #FFFFFF;
+}
+
+.space_for_list {
+    -fx-background-color: #FFFFFF;
+}
+
+.info_space {
+    -fx-background-color: #F8F8F8;
+}
+
+.all_info {
+    -fx-background-color: #FFFFFF;
+}
+
+.button_bottom {
+    -fx-background-color: #F8F8F8;
+}
+
+.custom-button {
+    -fx-pref-height: 45;
+    -fx-pref-width: 250;
+    -fx-background-radius: 15;
+    -fx-background-color: #FFFFFF;
+    -fx-font-size: 24;
+    -fx-font-family: "Arial Rounded MT Bold";
+}
+.custom-button:hover{
+    -fx-background-color: #D9D9D9;
+}
+.custom-button:pressed{
+    -fx-background-color: #D9D9D9;
+}
